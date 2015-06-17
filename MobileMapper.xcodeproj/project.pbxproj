@@ -14,6 +14,7 @@
 		F21491D51B16320D00567834 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21491D41B16320D00567834 /* Images.xcassets */; };
 		F21491D81B16320D00567834 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21491D61B16320D00567834 /* LaunchScreen.xib */; };
 		F21491E41B16320D00567834 /* MobileMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21491E31B16320D00567834 /* MobileMapperTests.m */; };
+		F21491EE1B16322000567834 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21491ED1B16322000567834 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F21491DD1B16320D00567834 /* MobileMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21491E21B16320D00567834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F21491E31B16320D00567834 /* MobileMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileMapperTests.m; sourceTree = "<group>"; };
+		F21491ED1B16322000567834 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21491EE1B16322000567834 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		F21491BB1B16320D00567834 = {
 			isa = PBXGroup;
 			children = (
+				F21491ED1B16322000567834 /* MapKit.framework */,
 				F21491C61B16320D00567834 /* MobileMapper */,
 				F21491E01B16320D00567834 /* MobileMapperTests */,
 				F21491C51B16320D00567834 /* Products */,
@@ -416,6 +420,7 @@
 				F21491E91B16320D00567834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21491EA1B16320D00567834 /* Build configuration list for PBXNativeTarget "MobileMapperTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				F21491EC1B16320D00567834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
